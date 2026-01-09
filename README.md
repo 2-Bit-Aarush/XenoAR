@@ -1,85 +1,102 @@
-# Xeno
+# 🧊 Xeno — Virtual 3D Scanner & Viewer
 
-Xeno is a **web-based 3D scanner and viewer application** built using **React + TypeScript**.  
-The project focuses on **virtual scanning logic** and **GLB / 3D model processing and viewing**, structured in a clean and modular way.
+![Xeno Banner](assets/banner.png)
 
----
+**Xeno** is a **web-based virtual 3D scanning and model viewer application** built using **React + TypeScript**.  
+It simulates scanning workflows and allows users to **load, preview, and interact with GLB / 3D models** directly in the browser.
 
-## Features
-
-- Modular React + TypeScript architecture
-- Clear separation of concerns:
-  - `components/` → UI and interaction logic
-  - `services/` → scanning logic and 3D model handling
-- GLB / 3D model viewing support
-- Easy to extend for:
-  - AR / VR features
-  - Real-device scanning
-  - Cloud storage and uploads
+> 🚀 Designed as a learning-focused project with real-world AR / 3D application potential.
 
 ---
 
-## Tech Stack
+## ✨ Highlights
 
-- React
-- TypeScript
-- HTML5
-- WebGL / Three.js (if used for rendering)
-- Vite or Create React App (depending on setup)
+- 🧩 Modular and clean React + TypeScript codebase  
+- 📦 GLB / 3D model loading and visualization  
+- 🖱️ Interactive viewer controls  
+- ⚡ Fast development workflow  
+- 🔧 Easily extendable to AR / WebXR
 
 ---
 
-## Getting Started
+## 📸 Visual Preview
 
-### Install dependencies
-- npm install 
-### Run development server
-- npm run dev 
-or (if using CRA)
+> _(Add your screenshots or screen recordings here)_
+
+### Scanner Interface
+![Scanner UI](assets/scanner-ui.png)
+
+### 3D Model Viewer
+![3D Viewer](assets/viewer.png)
+
+### Model Interaction
+![Interaction Demo](assets/interaction.gif)
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+|--------|-----------|
+| Frontend | React |
+| Language | TypeScript |
+| Rendering | WebGL / Three.js |
+| Tooling | Vite / CRA |
+| Markup | HTML5 |
+
+---
+
+## ▶️ Getting Started
+
+### 1️⃣ Install Dependencies
+- npm install
+### 2️⃣ Run Development Server
+ -npm run dev 
+### or (if using Create React App)
 - npm start 
-### Build for production
+### 3️⃣ Build for Production
 - npm run build 
+---
+
+## 🧪 Use Cases
+
+- Learning 3D rendering in the browser  
+- Prototyping AR / scanning workflows  
+- Portfolio project for frontend + graphics  
+- Base for WebXR / ARCore experiments  
 
 ---
 
-## Architecture Overview
+## 🚧 Planned Enhancements
 
-- **App.tsx**
-  - Root component
-  - Handles global layout and state
-
-- **components/**
-  - Scanner UI
-  - Viewer controls
-  - User interaction logic
-
-- **services/**
-  - Virtual scanning logic
-  - GLB loading and rendering helpers
-
-- **types.ts**
-  - Shared interfaces and TypeScript types
+- 📷 Camera-based real scanning
+- 🕶️ WebXR / ARCore support
+- ☁️ Cloud upload & sync
+- 📤 Export scanned models
+- ⚙️ Performance optimizations for large meshes
 
 ---
 
-## Future Improvements
+## 📝 Notes
 
-- Real camera-based scanning
-- ARCore / WebXR integration
-- Export scanned models
-- Cloud sync and storage
-- Performance optimizations for large meshes
+- This is a **virtual scanner**, not a real LiDAR scanner
+- Built for **learning, experimentation, and prototyping**
+- Codebase is intentionally kept readable and extensible
 
 ---
 
-## License
+## 📄 License
 
-This project is intended for learning and experimentation purposes.  
-You are free to modify and extend it.
+This project is open for learning and experimentation.  
+You are free to modify, extend, and reuse it.
 
 ---
 
-## Author
+## 👤 Author
 
 **Aarush Sharma**  
 ECE Student | Exploring AR, 3D, and real-world applications
+
+---
+
+⭐ If you like this project, consider starring the repository!
